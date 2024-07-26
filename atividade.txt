@@ -1,0 +1,196 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    double valH, salario;
+    int numF, numH; 
+    
+    scanf("%d", &numF);
+    scanf("%d", &numH);
+    scanf("%lf", &valH);
+    
+    
+
+    
+  salario = numH * valH;
+    
+    printf("NUMBER = %d\n", numF);
+    printf("SALARY = U$ %.2lf\n", salario);
+    
+ 
+    return 0;
+}
+
+===================================
+
+#include <stdio.h>
+ 
+int main() {
+ 
+    int A, B, C, D, DIFERENCA;
+    
+    scanf("%d", &A);
+    scanf("%d", &B);
+    scanf("%d", &C);
+    scanf("%d", &D);
+    
+
+    
+   DIFERENCA = (A * B - C * D);
+    
+    printf("DIFERENCA = %d\n", DIFERENCA);
+    
+ 
+    return 0;
+}
+
+==============================================
+
+#include <stdio.h>
+ 
+int main() {
+ 
+    double A, B, C, MEDIA;
+    
+    scanf("%lf", &A);
+    scanf("%lf", &B);
+    scanf("%lf", &C);
+    
+
+    
+    MEDIA = ((A * 2.0)+ (3.0 * B)+ (C * 5.0)) / 10;
+    
+    printf("MEDIA = %.1lf\n", MEDIA);
+    
+ 
+    return 0;
+}
+
+=======================================================
+
+
+#include <stdio.h>
+ 
+int main() {
+ 
+    double A, B, media;
+
+    
+    scanf("%lf", &A);
+    scanf("%lf", &B);
+    
+    media = (A * 3.5)+(B * 7.5);
+    media /= (3.5 + 7.5);
+    
+    printf("MEDIA = %.5lf\n", media);
+    
+ 
+    return 0;
+}
+
+===================================
+
+#include <stdio.h>
+ 
+int main() {
+ 
+    double A, B, media;
+
+    
+    scanf("%lf", &A);
+    scanf("%lf", &B);
+    
+    media = (A * 3.5)+(B * 7.5);
+    media /= (3.5 + 7.5);
+    
+    printf("MEDIA = %.5lf\n", media);
+    
+ 
+    return 0;
+}
+
+=========================================
+
+#include <stdio.h>
+ 
+int main() {
+ 
+    int A, B, PROD;
+    
+    scanf("%d", &A);
+    scanf("%d", &B);
+    
+
+    
+    PROD = A * B;
+    
+    printf("PROD = %d\n", PROD);
+    
+ 
+    return 0;
+}
+
+=============================
+
+#include <stdio.h>
+ 
+int main() {
+ 
+    int A, B, SOMA;
+    
+    scanf("%d", &A);
+    scanf("%d", &B);
+
+    
+    SOMA = A + B;
+    
+    printf("SOMA = %d\n", SOMA);
+    
+ 
+    return 0;
+}
+
+=======================================
+
+#include <stdio.h>
+ 
+int main() {
+ 
+   double raio, area, n= 3.14159;
+   
+   scanf("%lf", &raio);
+   
+   area = n * raio*raio ;
+   
+   printf("A=%.4lf\n", area);
+ 
+    return 0;
+}
+=======================================
+#include <stdio.h>
+ 
+int main() {
+ 
+    int A, B, X;
+    
+    scanf("%d", &A);
+    scanf("%d", &B);
+    
+    X = A + B;
+    
+    printf("X = %d\n", X);
+    
+ 
+    return 0;
+}
+===========================================
+
+
+#include <stdio.h>
+ 
+int main() {
+ 
+  printf( "Hello World!\n");
+ 
+    return 0;
+}
