@@ -1,3 +1,103 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+ 
+    double A, B, C, tri, cir, tra, qua, ret;
+    
+    scanf("%lf %lf %lf", &A, &B, &C);
+   
+   tri = (A * C) / 2;
+   cir = C * C * 3.14159;
+   tra = ((A + B) * C) / 2;
+   qua = B * B;
+   ret = A * B;
+    
+    printf("TRIANGULO: %.3lf\nCIRCULO: %.3lf\nTRAPEZIO: %.3lf\n"
+    "QUADRADO: %.3lf\nRETANGULO: %.3lf\n", tri, cir, tra, qua, ret);
+    
+    return 0;
+}
+
+
+
+====================================================
+
+
+
+#include <stdio.h>
+ 
+int main() {
+ 
+ double R, pi = 3.14159, total;
+ 
+ scanf("%lf " , &R);
+
+ 
+ total = (4.0/3) * pi * (R * R *R);
+ 
+ printf("VOLUME = %.3lf\n", total);
+ 
+ 
+    return 0;
+}
+ 
+ 
+
+====================================
+#include <stdio.h>
+ 
+int main() {
+ 
+ int cod1, num1, num2, cod2;
+ double val1, val2, total;
+ 
+ scanf("%d %d %lf " , &cod1, &num1, &val1);
+ scanf("%d %d %lf " , &cod2, &num2, &val2);
+ 
+ total = (val1 * num1) + (val2 * num2);
+ 
+ printf("VALOR A PAGAR: R$ %.2lf\n", total);
+ 
+ 
+    return 0;
+}
+ 
+ 
+
+==========================================
+#include <stdio.h>
+ 
+int main() {
+ 
+ char nome[100];
+ double salario, vendas, total;
+ 
+ scanf("%s", nome);
+ scanf("%lf", &salario);
+ scanf("%lf", &vendas);
+ 
+ total = (vendas * 0.15) + salario;
+ 
+ printf("TOTAL = R$ %.2lf\n", total);
+ 
+ 
+    return 0;
+}
+
+======================================
 #include <stdio.h>
  
 int main() {
@@ -66,27 +166,6 @@ int main() {
     return 0;
 }
 
-=======================================================
-
-
-#include <stdio.h>
- 
-int main() {
- 
-    double A, B, media;
-
-    
-    scanf("%lf", &A);
-    scanf("%lf", &B);
-    
-    media = (A * 3.5)+(B * 7.5);
-    media /= (3.5 + 7.5);
-    
-    printf("MEDIA = %.5lf\n", media);
-    
- 
-    return 0;
-}
 
 ===================================
 
@@ -194,3 +273,6 @@ int main() {
  
     return 0;
 }
+
+
+======================================
