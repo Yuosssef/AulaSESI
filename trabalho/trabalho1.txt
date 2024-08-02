@@ -1,0 +1,147 @@
+    #include <stdio.h>
+     
+   
+        
+        int soma()
+        {
+            double n1 = 0, n2 = 0, total = 0;
+            
+            printf("Digite o primeiro numero\n");
+            scanf("%lf", &n1);
+            
+            printf("Digite o segundo numero\n");
+            scanf("%lf", &n2);
+            
+            total = n1 + n2;
+            
+            printf("O valor da soma eh: %.5lf ", total);
+            
+            
+            
+        }
+        
+              
+        int subtracao()
+        {
+            double n1 = 0, n2 = 0, total = 0;
+            
+            printf("Digite o primeiro numero\n");
+            scanf("%lf", &n1);
+            
+            printf("Digite o segundo numero\n");
+            scanf("%lf", &n2);
+            
+            total = n1 - n2;
+            
+            printf("O valor da subtração eh: %.5lf ", total);
+            
+            
+            
+        }
+        
+        int multicao()
+        {
+            double n1 = 0, n2 = 0, total = 0;
+            
+            printf("Digite o primeiro numero\n");
+            scanf("%lf", &n1);
+            
+            printf("Digite o segundo numero\n");
+            scanf("%lf", &n2);
+            
+            total = n1 * n2;
+            
+            printf("O valor da multiplicação eh: %.5lf ", total);
+            
+            
+            
+        }
+        
+        int divisao()
+        {
+            double n1 = 0, n2 = 0, total = 0;
+            
+            printf("Digite o primeiro numero\n");
+            scanf("%lf", &n1);
+            
+            printf("Digite o segundo numero\n");
+            scanf("%lf", &n2);
+            
+            total = n1 / n2;
+            
+            printf("O valor da multiplicação eh: %.5lf ", total);
+            
+            
+            
+        }
+        
+        
+        int potencia()
+        {
+            double num = 0, expo = 0, total = 1;
+            
+            printf("Digite o numero da base\n");
+            scanf("%lf", &num);
+            
+            printf("Digite o numero do expoente\n");
+            scanf("%lf", &expo);
+            
+            
+            
+            for(int i = 0; i < expo ; i ++){
+                
+                total *= num;
+            }
+            
+            printf("O valor da potenciação eh: %.5lf ", total);
+            
+            
+            
+        }
+        
+        
+        int raiz()
+        {
+            double num = 0, total = 0;
+            
+            numA = num;
+            
+            printf("Digite o numero do radicando\n");
+            scanf("%lf", &num);
+            
+            
+          total = num;
+            
+            
+            for(int i = 0; i <= 20 ; i ++){
+                
+                 total = 0.5 * (total + (num/total));
+                 
+            }
+            
+            printf("O valor da radiciação eh: %.5lf ", total);
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+     int main() {
+         
+         //soma();
+         //subtracao();
+         //multicao();
+         //divisao();
+         //potencia();
+         //raiz();
+         
+     
+    
+    }
