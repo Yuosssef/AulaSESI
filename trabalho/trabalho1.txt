@@ -124,6 +124,28 @@
             
             
         }
+
+
+
+            
+             
+            
+            void fatorial() {
+                int numero;
+                int resultado = 1;
+            
+                printf("Digite um número para calcular o fatorial: ");
+                scanf("%d", &numero);
+            
+                while (numero > 1) {
+                    resultado *= numero;
+                    numero--;
+                }
+            
+                printf("O fatorial é: %d\n", resultado);
+            }
+            
+           
         
         
         
@@ -141,6 +163,7 @@
          //divisao();
          //potencia();
          //raiz();
+        //fatorial();
          
      
     
