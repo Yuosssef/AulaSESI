@@ -1,0 +1,49 @@
+Topologia:
+
+A topologia pode ser entendida comom a maneira pela qual é raalizada a ligação / ecomunicação dos nós da rede
+
+
+Barramento:
+
+Neste tipo de topologia  todos os computadores são ligados fisiamente em um mesmo cabo. por issso nenyhum computador pode usa-lo  enquanto a comunicação está sendo usado realizada
+
+
+[PC] --- [pc] --- [pc] --- [pc]
+
+
+
+
+
+Estrela:
+
+A topologia do tipo estrela utiliza um periferico com computador normalmente um hub interligado todas as maquinas
+
+
+  [PC]        [pc]        [pc]
+      -        -        -
+        -      -      -
+          -    -    -
+            [.....] 
+          -         -
+        -            -
+      -                -
+[pc]                     [PC]
+
+
+
+
+Anel:
+
+Nesta topolodgia cada computor obedecendo um detyerminado sentido são conectados formando um anel
+
+         [pc] 
+  [pc]         [pc]
+[pc]    [....]    [pc]
+   [pc]       [pc]
+         [pc]
+
+
+
+
+
+
