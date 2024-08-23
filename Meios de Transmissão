@@ -1,0 +1,76 @@
+Meios de Trasmissão
+
+  De acordo com com Tanebaun (1997) existem váriaos meios físicos
+que podem ser usados para realizar transmissão de dados.
+Cada um com sua própria caracteristica em relaçãos
+a largura de banda, retartdo, custo e facilidade de istalação e maanutenção.
+
+Cabo coaxial:
+
+  Consiste de um fio de cobre esticado na parte central envolvendo
+por um materia isolante.
+
+Par trançado 
+
+
+Segundo Guimarães (2015) é o cabo mais utilizado. Existem basicamente 
+dois tipos com e sem blindagem sendo chamados de STP e UTP.
+
+  Ele é dividido em categorias sendo ela:
+
+CAT 1 e 2;
+CAT 3;
+CAT 4;
+CAT 5; -> 5e
+CAT 6;
+CAT 7.
+
+
+
+Fibra Ótica
+
+Sendo Torres (2001) a fibra ótica transmitem informações através
+de sinais luminosos em vez de sinais totalmente imune a ruídos com
+isso sua comunicação é mais rápida.
+
+Conforme Dantas (2002) as fibras oticas são classificadas de 
+acordo com a forma que a luz trafega no cabo.
+
+
+
+Monomodo
+
+Um único sinal de lux é transportado de forma direta no  nucleo do cabo.
+Esse sinal pode atingir grandes distâncias em sua transmissão.
+
+---------------------------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+---------------------------------------------------------------
+
+
+Multimodo
+
+Tem como caracteristicas que seu feixe dfe transmissão viaja ao longo de seu
+trajeto fazendo diferentes refrações  nas paredes do  númecleo  de seu cabo.
+
+
+---------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------------------------------
+
+
+
+Categoria	Velocidade Máxima	Largura de Banda	Uso Típico
+CAT 1	N/A	N/A	Telefonia, áudio
+CAT 2	Até 4 Mbps	N/A	Token Ring, comunicação antiga
+CAT 3	Até 10 Mbps	16 MHz	Redes Ethernet 10BASE-T, telefonia
+CAT 4	Até 16 Mbps	20 MHz	Redes Ethernet 10BASE-T, 100BASE-T4
+CAT 5	Até 100 Mbps	100 MHz	Redes Ethernet Fast Ethernet
+CAT 5e	Até 1 Gbps	100 MHz	Redes Ethernet Gigabit
+CAT 6	Até 1 Gbps (100m) / 10 Gbps (55m)	250 MHz	Redes Ethernet Gigabit e 10GBASE-T
+CAT 7	Até 10 Gbps	600 MHz	Redes de alta velocidade, ambientes ruidosos
+
+
+
+
+
